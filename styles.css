@@ -9,6 +9,16 @@
   height: 30px;
 }
 
+.carousel-item {
+  width: 500px;
+  transition: width 2ms;
+}
+
+.carousel-item:hover {
+  width: 600px;
+  
+}
+
 .carousel-control-next-icon {
   transform: rotate(180deg);
 }
